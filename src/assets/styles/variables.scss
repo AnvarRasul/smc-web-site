@@ -1,0 +1,100 @@
+// src/styles/global.scss
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
+//white
+
+$white-50: #ffffff;
+$white-100: #ffffff;
+$white-200: #ffffff;
+$white-300: #ffffff;
+$white-400: #ffffff;
+$white-500: #ffffff;
+$white-600: #e8e8e8;
+$white-700: #b5b5b5;
+$white-800: #8c8c8c;
+$white-900: #6b6b6b;
+
+// blue
+
+$blue-50: #e6eef7;
+$blue-100: #b2c9e7;
+$blue-200: #8cafdc;
+$blue-300: #588acb;
+$blue-400: #3773c1;
+$blue-500: #0550b2;
+$blue-600: #0549a2;
+$blue-700: #04397e;
+$blue-800: #032c62;
+$blue-900: #02224b;
+
+// red
+
+$red-50: #f8e6eb;
+$red-100: #e9b0c0;
+$red-200: #de8aa1;
+$red-300: #cf5476;
+$red-400: #c6335c;
+$red-500: #b80033;
+$red-600: #a7002e;
+$red-700: #830024;
+$red-800: #65001c;
+$red-900: #4d0015;
+
+// grey
+
+$grey-50: #fefeff;
+$grey-100: #fcfdfe;
+$grey-200: #fbfbfe;
+$grey-300: #f9fafd;
+$grey-400: #f8f9fd;
+$grey-500: #f6f7fc;
+$grey-600: #e0e1e5;
+$grey-700: #afafb3;
+$grey-800: #87888b;
+$grey-900: #67686a;
+
+// green
+
+$green-50: #e6f0eb;
+$green-100: #b0d1c2;
+$green-200: #8abba4;
+$green-300: #549c7b;
+$green-400: #338961;
+$green-500: #006b3a;
+$green-600: #006135;
+$green-700: #004c29;
+$green-800: #003b20;
+$green-900: #002d18;
+
+// yellow
+
+$yellow-50: #fffbe7;
+$yellow-100: #fff2b3;
+$yellow-200: #ffec8e;
+$yellow-300: #ffe45b;
+$yellow-400: #ffde3b;
+$yellow-500: #ffd60a;
+$yellow-600: #e8c309;
+$yellow-700: #b59807;
+$yellow-800: #8c7606;
+$yellow-900: #6b5a04;
+
+// black
+
+$black-50: #e7e7e9;
+$black-100: #b4b6ba;
+$black-200: #909299;
+$black-300: #5d616a;
+$black-400: #3d424d;
+$black-500: #0d1321;
+$black-600: #0c111e;
+$black-700: #090d17;
+$black-800: #070a12;
+$black-900: #05080e;

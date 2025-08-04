@@ -1,0 +1,43 @@
+@import '/src/assets/styles/variables.scss';
+
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../../assets/images/Hero.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.hero_section {
+  font-size: 6rem; // Крупный размер текста
+  font-weight: 400;
+  color: #ffffff; // Нейтральный цвет (заменим позже)
+  // animation: wave 3s ease-in-out infinite; // Эффект волны
+
+  // Разбиваем текст на символы
+  span {
+    display: inline-block;
+    animation: wave 3s ease-in-out infinite;
+  }
+  .centre {
+    margin-left: 5rem;
+  }
+  .space {
+    margin-left: 19rem;
+  }
+  .monitoring {
+    margin-left: 32rem;
+  }
+}
+
+
+
+.description {
+  color: white;
+}
+
