@@ -20,6 +20,11 @@ function HeroSection() {
                     организациям принимать обоснованные решения, оптимизировать управление и 
                     снижать риски
                 </p>
+                <div className={styles.button}>
+                    <span>
+                        СВЯЗАТЬСЯ С НАМИ
+                    </span>
+                </div>
             </div>
             
         </section>
