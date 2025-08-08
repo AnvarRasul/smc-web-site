@@ -44,7 +44,7 @@ function Header() {
                         <li className={styles.spheres}>
                             <span>SPHERES</span>
                         </li>
-                        <li className={styles.resourses}>
+                        <li className={styles.resources}>
                             <span>RESOURCES</span>
                         </li>
                     </ul>

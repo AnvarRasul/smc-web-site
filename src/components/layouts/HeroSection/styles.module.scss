@@ -15,15 +15,19 @@
 }
 
 .hero_section {
-  font-size: 6rem; // Крупный размер текста
-  font-weight: 400;
   color: #ffffff; // Нейтральный цвет (заменим позже)
-  // animation: wave 3s ease-in-out infinite; // Эффект волны
+  margin-top: 7em;
+  padding: 0;
 
-  // Разбиваем текст на символы
   span {
     display: inline-block;
     animation: wave 3s ease-in-out infinite;
+    font-weight: 400;
+    font-size: 10rem;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
   }
   .centre {
     margin-left: 5rem;
@@ -32,11 +36,9 @@
     margin-left: 19rem;
   }
   .monitoring {
-    margin-left: 32rem;
+    margin-left: 35rem;
   }
 }
-
-
 
 .description {
   color: white;
@@ -44,14 +46,18 @@
   height: 64px;
   margin-left: 65rem;
   
-
   .button {
     background-color: #ffffff;
     color: black;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
-    padding: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    
+    &:hover {
+      background: #ccc;
+    }
     
   }
 }
