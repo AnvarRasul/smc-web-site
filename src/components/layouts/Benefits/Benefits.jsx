@@ -1,11 +1,13 @@
-import React from "react";
-import styles from "./styles.module.scss";
+import React, {useEffect, useRef} from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import "./styles.module.scss";
 
-function Benefits() {
-    
-    return (
-        
-    );
-}
+gsap.registerPlugin(ScrollTrigger);
 
-export default Benefits;
+const advantages = [
+    {
+        num: "01",
+        title: "ВЫСОКАЯ ТОЧНОСТЬ"
+    }
+]
