@@ -19,8 +19,7 @@
 .service_item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid #444;
+  border-top: 1px solid #FFFFFF;
   padding: 15px 0;
 }
 
@@ -32,20 +31,22 @@
 .service_content {
   display: flex;
   align-items: center;
-  gap: 1px;
+  margin-left: 35rem;
+  gap: 3rem;
   
 }
 
 .service_image {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .service_name {
   font-size: 1rem;
-  margin: 0;
+  margin-left: 1rem;
+  width: 350px;
 }
 
 .service_desc {
@@ -53,6 +54,10 @@
   font-size: 0.9rem;
 }
 
-.service_link {
-  color: white;
+.link {
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  text-align: right;
+  margin-left: 38rem;
 }
